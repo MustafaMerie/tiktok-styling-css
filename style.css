@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:500,700&display=swap');
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+header{
+	display: flex;
+	justify-content:space-between;
+
+}
+header .leftNav,
+header nav{
+	margin: auto;
+}
+header .leftNav img{
+	width: 130px;
+}
+nav ul{list-style: none;}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #333;
+	font-weight: 700;
+	margin-left: 20px;
+}
+.under-nav-caption{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.slogan h1{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.slogan p{
+    margin-top: 0;
+    font-size: 19px;
+    text-align: center;
+}
+footer{
+	background-color: #000;
+	color: #fff;
+}
+.download{
+	display: flex;
+	justify-content: space-around;
+}
+
+.download .downLink img{
+	width: 470px;
+}
+
+.downLink p{
+	font-size: 11px;
+    text-align: center;
+}
+.download .downLink,
+.download .stores{
+	text-align: center;
+}
+.download .stores img{
+	width: 150px;
+}
+#lists{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+footer ul{
+	list-style: none;
+}
+footer ul li a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	margin: 5px auto;
+}
+.copyRights{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
